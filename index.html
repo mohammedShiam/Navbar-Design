@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navber</title>
+</head>
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        box-sizing: border-box;
+
+    }
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Fisrt Rule */
+.nav1{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: #fff;
+    padding: 0.5em;
+
+
+}
+.nav1 > .logo{
+    padding: .5em .4em;
+    font-size: 1.3em;
+}
+.nav1 > ul{
+    display: flex;
+
+}
+.nav1 > ul > li{
+    list-style: none;
+    padding: .1em .5em;
+    cursor: pointer;
+
+    
+}
+.nav1 > ul > li:hover{
+    opacity: .5;
+}
+
+/* Secound Rule */
+.nav2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 1em; */
+    background-color: blue;
+    color: #fff;
+}
+.nav2 > .logo{
+    font-size: x-large;
+    font-weight: bold;
+    padding: 0em .5em;
+}
+.nav2 > ul{
+
+}
+.nav2 > ul > li {
+    display: inline-block;
+    list-style: none;
+    padding: 1.1em .6em;
+    font-size: large;
+    cursor: pointer;
+
+}
+.nav2 > ul > li:hover{
+    background-color: aqua;
+    color: #000;
+}
+/* Third rule */
+
+.nav3{
+        background-color: tomato;
+        display: inline-block;
+        width: 100%;
+        padding: 1em;
+}
+.nav3 > .logo{
+    float: left;
+    font-size: x-large;
+
+}
+.nav3 > .logo a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav3 > ul{
+    float: right;
+    margin-top: .2em;
+}
+
+.nav3 > ul > li{
+    float: left;
+    list-style: none;
+
+}
+.nav3 > ul > li a{
+    text-decoration: none;
+    padding: .5em .5em;
+    color: #fff;
+    font-size: large;
+}
+
+.nav3 > ul > li > a:hover{
+    background-color: #000;
+}
+</style>
+<body>
+    <div class="nav1">
+        <div class="logo">
+            NavLogo
+        </div>
+        <ul>
+            <li>Home</li>
+            <li>Profile</li>
+            <li>Contact</li>
+            <li>Section</li>
+        </ul>
+    </div>
+    <div class="nav2">
+        <div class="logo">
+            NavLogo
+        </div>
+        <ul>
+            <li>Home</li>
+            <li>Profile</li>
+            <li>Contact</li>
+            <li>Section</li>
+        </ul>
+    </div>
+    <div class="nav3">
+        <div class="logo">
+            <a href="">NavLogo</a>
+        </div>
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">Profile</a></li>
+            <li><a href="">Contact</a></li>
+            <li><a href="">Section</a></li>
+            
+        </ul>
+    </div>
+
+</body>
+</html>
